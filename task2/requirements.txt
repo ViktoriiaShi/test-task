@@ -1,0 +1,14 @@
+numpy
+matplotlib.pyplot
+skimage
+skimage.transform
+skimage.feature
+sklearn.neighbors
+io 
+color
+feature
+integral_image
+match_descriptors
+ORB
+NearestNeighbors
+kagglehub

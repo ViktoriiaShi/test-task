@@ -1,0 +1,4 @@
+Task 2. Computer vision. Sentinel-2 image matching
+We have the algorithm for image matching. in this task i am using ORB approach (Oriented FAST and rotated BRIEF). it is commonly used in computer vision tasks such as object recognition and image matching. other types of approaches that could be used are siamese neural network (designed to determine whether two pairs of data have similarities or not) and convolutional neural network (useful for finding patterns in images).
+We have the function for image loading. Then the function which detects keypoints and computes descriptors using ORB (handling image rotations). Then the function that matches descriptors using NearestNeighbors (alternative to FLANN).
+Then we are using Lowe's ratio test to filter matches. After this we use function for drawing the matched keypoints between the two images.
